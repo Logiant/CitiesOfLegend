@@ -1,0 +1,65 @@
+/* Add some padding on document's body to prevent the content
+   to go underneath the header and footer */
+body{
+  margin: 0px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-family: "Marcellus SC", serif;
+  background-color: #f0ffff;
+}
+/* Header Properties */
+.fixed-header{
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+}
+.fixed-header{
+  top: 0;
+}
+
+#NavPane {
+  text-align: left;
+  padding-left: 10px;
+  color: grey;
+}
+#NavPane a {
+  color: #b08d57;
+}
+
+#content {
+  position: relative;
+  float: right;
+  width: 85%;
+  background-color: #ebd5b3;
+  color: black;
+  font-family: serif;
+}
+
+/*main container that holds the page info*/
+.container{
+  width: 70%;
+  padding-top: 5em;
+  margin: 0 auto; /* Center the DIV horizontally */
+  background-color: none;
+}
+
+
+#content h1 {
+  font-size: 2.5em;
+  color: #C69633;
+  margin: 0.5em 0.1em;
+}
+
+#content h2 {
+  font-size: 2em;
+  color: #C69633;
+  margin: 1em;
+}
+
+#content p {
+  margin: 1em;
+}
