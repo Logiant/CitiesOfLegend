@@ -32,7 +32,6 @@ body{
 
 #content {
   position: relative;
-  float: right;
   width: 85%;
   background-color: #ebd5b3;
   color: black;
@@ -45,6 +44,7 @@ body{
   padding-top: 5em;
   margin: 0 auto; /* Center the DIV horizontally */
   background-color: none;
+  display: flex;
 }
 
 

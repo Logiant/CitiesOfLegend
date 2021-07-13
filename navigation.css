@@ -2,9 +2,7 @@
    to go underneath the header and footer */
 
 #navigation{
-  position: relative;
-  float: left;
-  width: 15%;
+  min-width: 200px;
   background-color: none;
   display: flex;
   flex-direction: column;
@@ -23,6 +21,7 @@
   background-color: #00000040;
   height: 2em;
   color: white;
+  flex-grow: 1;
 }
 
 .navbox:hover {
