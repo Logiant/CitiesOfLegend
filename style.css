@@ -4,26 +4,39 @@ body{
   margin: 0px;
   padding-top: 60px;
   padding-bottom: 40px;
-  font-family: "Marcellus SC", serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   background-color: #f0ffff;
+  /*background image by https://www.deviantart.com/jonasdero/art/Woodlands-426702454*/
+  background-attachment: fixed;
+  background-image: url("resources/scene1.jpg");
+  background-size: 100%;
+  background-position: bottom;
 }
 /* Header Properties */
 .fixed-header{
+  top: 0;
   width: 100%;
   position: fixed;
   z-index: 1000;
   background: #333;
   padding: 10px 0;
   color: #fff;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
-.fixed-header{
-  top: 0;
+#header-main{
+  font-family: "Marcellus SC", serif;
+  font-size: 2em;
+  color: white;
 }
+
+
 
 #NavPane {
   text-align: left;
   padding-left: 10px;
+  padding-bottom: 2px;
   color: grey;
 }
 #NavPane a {
@@ -49,12 +62,14 @@ body{
 
 
 #content h1 {
+  font-family: "Marcellus SC", serif;
   font-size: 2.5em;
   color: #C69633;
   margin: 0.5em 0.1em;
 }
 
 #content h2 {
+  font-family: "Marcellus SC", serif;
   font-size: 2em;
   color: #C69633;
   margin: 1em;
