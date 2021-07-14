@@ -10,7 +10,8 @@ body{
   background-attachment: fixed;
   background-image: url("resources/scene1.jpg");
   background-size: 100%;
-  background-position: bottom;
+  background-repeat: round;
+  background-position: top;
 }
 /* Header Properties */
 .fixed-header{
